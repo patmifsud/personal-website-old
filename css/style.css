@@ -1,0 +1,85 @@
+
+/* Typography, text and links */
+
+h1,h2{
+  color:var(--clr1);
+}
+
+a{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p{
+  max-width: 90%;
+}
+
+.title-row{
+  margin-bottom: var(--sp2);
+}
+
+
+
+#projects-list{
+  padding:0;
+}
+
+
+.project{
+  opacity: 0;
+  display: flex;
+  margin-bottom: var(--sp3);
+}
+
+
+.thumbnail{
+  width: 13rem;
+  border-radius: 0.2rem;
+  border: var(--borderLight);
+  display: block;
+  height: var(--projRowHeight);
+  margin-right: var(--colGap);
+}
+
+header{
+  min-height: var(--projRowHeight);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--sp1) 0;
+}
+
+header *{
+  margin-bottom:var(--sp3);
+  max-width: 30rem;
+}
+
+article{
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.links{
+  margin-top: auto;
+}
+
+.links a{
+  margin-right:var(--sp3);
+}
+
+
+/* modifyer clases */
+
+.disabled{
+  pointer-events: none;
+  opacity: 0.6;
+  cursor:auto;
+  transition: opacity .2s;
+}
+
+.see-more{
+  opacity: 0;
+}
+
+

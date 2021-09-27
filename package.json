@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "patmifsud.com. My portfolio, projects, blog, resume etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='**/*'",
+    "test": "eslint index.html js/script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patmifsud/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patmifsud/personal-website/issues"
+  },
+  "homepage": "https://github.com/patmifsud/personal-website#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "browser-sync": "^2.27.5"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
